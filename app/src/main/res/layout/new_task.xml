@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edTachID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:hint="Entrez une description de tâches"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buSaveID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminé"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:enabled="false"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/darker_gray"/>
+</LinearLayout>
